@@ -203,7 +203,7 @@ canvas {
 }
 
 #start-help .intro-text {
-	padding: 0 36px;
+	padding: 8px 36px 0;
 }
 .intro-text span{
 	font-size:18px;
@@ -218,21 +218,22 @@ canvas {
 
 #start-help #help-actions {
 	margin:5px auto;
-	padding:0 70px;
 }
 #start-help #more-help-button {
 	/*color: #3d001e;*/
 	color:#fff;
 	display: inline-block;
 	font-weight:normal;
-	font-size: 18px;
+	font-size: 16px;
+	line-height:19px;
+	opacity:0.5;
 	text-align: center;
 	width: auto;
 }
 
 #start-help #more-help-button:hover{
 	cursor: pointer;
-	font-weight: bold;
+	opacity:1.0;
 }
 
 a.close {	

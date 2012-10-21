@@ -22,9 +22,9 @@
 		<!-- Explain whether to draw head, body, or legs -->
 		<div class="intro">
 			<div class="intro-text">
-			<?php print $start_message . "<br/><span>and this message will go away</span>" ?>
+			<?php print $start_message; ?>
 			<div id="help-actions">
-				<div id="more-help-button">(Get Help)</div>
+				<div id="more-help-button">Confused? Click for help.</div>
 			</div>
 		</div><!-- intro text -->
 		</div><!-- .intro -->
